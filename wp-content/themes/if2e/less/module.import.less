@@ -1,0 +1,61 @@
+body{
+	font : 14px/1.7 arial, "microsoft yahei", sans-serif;
+	background : url("images/bg.png");
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.17em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.83em;
+}
+
+h6 {
+	font-size: 0.75em;
+}
+
+a{
+	text-decoration: none;
+	&:hover{
+		text-decoration: underline;
+	}
+}
+
+ul,li{
+	list-style: none;
+}
+
+img{
+	vertical-align: top;
+}
+
+.fix_dib(){
+	display: inline-block;
+	.lte_ie7 &{
+		zoom: 1;
+		display: inline;
+	}
+}
+
+.clearfix(){
+	zoom:1;
+	&:after{
+		content: "\0020";
+		display: block;
+		height: 0;
+		clear: both;
+	}
+}

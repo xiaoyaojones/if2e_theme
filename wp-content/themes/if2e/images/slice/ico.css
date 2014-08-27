@@ -1,0 +1,52 @@
+.arrow-down-white{
+	width : 16px;
+	height : 9px;
+	background : url("01.png") no-repeat;
+}
+
+.arrow-down-blue{
+	width : 16px;
+	height : 9px;
+	background : url("02.png") no-repeat;
+}
+
+.ico-rss{
+	width : 10px;
+	height : 10px;
+	background: url("03.png") no-repeat;
+}
+.arrow-right-white{
+	width : 9px;
+	height : 16px;
+	background : url("04.png") no-repeat;
+}
+
+.ico-author{
+	width : 14px;
+	height : 15px;
+	background : url("05.png") no-repeat;
+}
+
+.ico-calendar{
+	width : 14px;
+	height : 15px;
+	background : url("06.png") no-repeat;
+}
+
+.ico-cate{
+	width : 15px;
+	height : 14px;
+	background : url("07.png") no-repeat;
+}
+
+.ico-tag{
+	width : 15px;
+	height : 12px;
+	background : url("08.png") no-repeat;
+}
+
+.ico-reply{
+	width : 14px;
+	height : 13px;
+	background : url("09.png") no-repeat;
+}
